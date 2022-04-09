@@ -24,9 +24,7 @@ while True:
             i = 0
         continue
     
-    # if num == M:
-    #     ax, ay = x+1, y+1
-        
+    
     x, y = nx, ny
     num -= 1
     
