@@ -18,6 +18,7 @@ while True:
     
     nx = x + dir_x[i]
     ny = y + dir_y[i]
+    
     if nx >= N or ny>=N or nx <= -1 or ny<=-1 or brd[nx][ny] != 0:
         i += 1
         if i == 4:
